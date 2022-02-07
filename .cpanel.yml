@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/versavvymediacom/public_html/5Aback
+ - /bin/cp -R * $DEPLOYPATH
