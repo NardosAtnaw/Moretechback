@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . './config.php';
+require __DIR__ . '/config.php';
 
 $received = json_decode(file_get_contents("php://input"));
 $data = array();
