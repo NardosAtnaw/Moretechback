@@ -55,10 +55,6 @@ if (isset($_POST['update_post'])) {
 }
 ?>
 
-
-
-
-
 <form action="" method="POST" class="col-6" enctype="multipart/form-data">
 <div class="form-group">
     <label for="post_category"> Product Title</label>
@@ -107,7 +103,7 @@ if (isset($_POST['update_post'])) {
     <textarea name="post_content" id="" cols="30" rows="10" value="<?php echo $post_category; ?>" class="form-control"></textarea>
   </div>
   <div class="form-group">
-    <label for="post_content"> Post Content</label>
+    <label for="post_content"> Category Content</label>
     <textarea name="post_content" id="" cols="30" rows="10" class="form-control"><?php echo $post_content; ?>
     </textarea>
   </div>
