@@ -9,9 +9,7 @@ $searchResult = array();
 if ($received->action == 'fetchAll') {
   $query = "SELECT * FROM posts";
   $result = mysqli_query($connection, $query);
-
   confirm($result);
-
   while ($row = mysqli_fetch_assoc($result)) {
     $data[] = $row;
   }
