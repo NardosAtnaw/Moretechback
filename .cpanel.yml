@@ -1,5 +1,5 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/versavvymediacom/public_html/moretechApi
+ - export DEPLOYPATH=/home/moretechplccom/public_html/api
  - /bin/cp -R * $DEPLOYPATH
