@@ -9,17 +9,18 @@ $result = mysqli_query($connection, $query);
 
 while ($row = mysqli_fetch_assoc($result)) {
   $post_id = $row['post_id'];
+  $post_name = $row['post_name'];
   $post_title = $row['post_title'];
-  $post_date = $row['post_date'];
   $post_content = substr($row['post_content'],0,157);
+  $post_subcontent = substr($row['post_subcontent'],0,157);
   $post_image = $row['post_image'];
-  $post_duration = $row['post_duration'];
+
 ?>
   <div class="single-blog">
     <img src="./post_img/<?php echo $post_image; ?>" alt="blog desc" class="blog-img" />
     <div class="blog-content">
       <h2 class="blog-content-title">
-        <?php echo $post_title; ?>
+        <?php echo $post_name; ?>
       </h2>
 
       <p class="blog-text">

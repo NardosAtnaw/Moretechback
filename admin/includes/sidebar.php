@@ -43,11 +43,21 @@
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
+                <a class="nav-link" href="./titlecategory.php">
+                <i class="fas fa-clipboard-list"></i>
+                    <span> Title Categories  </span></a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="./categories.php">
                 <i class="fas fa-clipboard-list"></i>
                     <span>Categories      </span></a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="./subcategory.php">
+                <i class="fas fa-clipboard-list"></i>
+                    <span> Sub-Categories </span></a>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsethree"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-users"></i>
@@ -60,26 +70,26 @@
                         <a class="collapse-item" href="./clients.php?source=add_client">Add Client</a>
                     </div>
                 </div>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="./comments.php">
                     <i class="fas fa-comments"></i>
                     <span>Comments</span></a>
-            </li>
+            </li> -->
           
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="./payment.php">
                     <i class="fas fa-money-bill-wave"></i>
                     <span>Payment Request</span></a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="./view_confirm_payment.php">
                     <i class="fas fa-money-bill-wave"></i>
                     <span>Confirm Payment</span></a>
-            </li>
+            </li> -->
           
             <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-users"></i>
@@ -94,7 +104,7 @@
                         <a class="collapse-item" href="./users.php?source=add_user">Add User</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
           
 
             <!-- Divider -->
