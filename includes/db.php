@@ -1,6 +1,6 @@
 <?php
 // $connection = mysqli_connect('localhost','root','','Moretech');
-$connection = mysqli_connect('localhost','moretechplccom_admin ','cptV_&,2B2C.','moretechplccom_db');
+$connection = mysqli_connect('localhost','moretechplccom_admin ','cptV_&,2B2C.','moretechplccom_backend');
 if (!$connection) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
