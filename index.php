@@ -133,7 +133,7 @@ if ($received->action == 'fetchImgEqu') {
 }
 
 if ($received->action == 'fetchAlu') {
-  $query = "SELECT * FROM posts WHERE post_titlecategory = 'Aluminum Door and Widow Works   '";
+  $query = "SELECT * FROM posts WHERE post_titlecategory = 'Aluminum Door and Window Works'";
   $result = mysqli_query($connection, $query);
   confirm($result);
   while ($row = mysqli_fetch_assoc($result)) {
@@ -143,7 +143,7 @@ if ($received->action == 'fetchAlu') {
   echo json_encode($data);
 }
 if ($received->action == 'fetchImgAlu') {
-  $query = "SELECT * FROM imageposts WHERE post_titlecategory = 'Aluminum Door and Widow Works   '";
+  $query = "SELECT * FROM imageposts WHERE post_titlecategory = 'Aluminum Door and Window Works'";
   $result = mysqli_query($connection, $query);
   confirm($result);
   while ($row = mysqli_fetch_assoc($result)) {

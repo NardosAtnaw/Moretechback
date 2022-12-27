@@ -9,6 +9,3 @@ if (!$connection) {
     exit;
 }
 
-
-
-
