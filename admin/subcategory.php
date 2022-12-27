@@ -25,7 +25,7 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Sub Categories</h1>
-                        
+
                     </div>
                     <!-- Content Row -->
                     <div class="row">
@@ -62,15 +62,15 @@
                                 </div>
                             </form>
 
-                                <?php 
-                                    if(isset($_GET['edit'])){
-                                        $subcat_id = $_GET['edit'];
-                                        include './includes/update_subcategories.php';
-                                    }
-                                
-                                
-                                ?>
-    
+                            <?php
+                            if (isset($_GET['edit'])) {
+                                $subcat_id = $_GET['edit'];
+                                include './includes/update_subcategories.php';
+                            }
+
+
+                            ?>
+
                         </div>
 
                         <div class="col-6">
